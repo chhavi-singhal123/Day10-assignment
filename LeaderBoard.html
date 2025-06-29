@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+</head>
+
+<body>
+    <script>
+        const names = ["Grace", "Arpit", "Lokendra", "Satyam"];
+
+        
+        const ol = document.createElement("ol");
+        names.forEach(name => {
+            const li = document.createElement("li");
+            li.textContent = name;
+            ol.appendChild(li);
+        });
+        document.body.appendChild(ol);
+    </script>
+
+</body>
+
+</html>
